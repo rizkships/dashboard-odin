@@ -1,0 +1,48 @@
+body {
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+    background-color: lightblue;
+    border: black;
+    width: 20vw;
+    
+}
+
+.top-nav {
+    background-color: white;
+    border: black;
+    height: 20vh;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.main-content {
+    background-color: lightgray;
+    border: black;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-column: 2 / 3;
+    
+    
+
+}
+
+.your-projects {
+    display: grid;
+   
+    
+}
+
+.trending {
+    display: grid;
+    justify-self: flex-end;
+}
