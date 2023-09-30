@@ -71,11 +71,12 @@ body {
     flex-direction: column;
 }
 
-.navbar {
+.navbar, 
+.left {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 10px 20px;
+    margin: 5px 20px;
 }
 
 .form-input {
@@ -88,15 +89,41 @@ body {
 }
 
 
-.avatarNavbar {
+.avatarNavbar,
+.avatarWelcome {
     margin: 0px 20px;
 }
-.welcome {
 
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 20px;
+
+    justify-content: space-between;
 }
 
 .content {
     background-color: #d4d4d4;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-right: 30px;
+}
+
+.btn {
+    background-color: #0ea5e9;
+    width: 70px;
+    height: 35px;
+    color: white;
+    border: 1px solid #0ea5e9;
+    border-radius: 20px;
 }
 
 /*
