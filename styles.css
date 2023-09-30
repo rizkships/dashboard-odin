@@ -106,6 +106,9 @@ body {
 
 .content {
     background-color: #d4d4d4;
+    display: grid;
+    grid-template-columns: 70% 30%;
+
 }
 
 .right {
@@ -126,6 +129,104 @@ body {
     border-radius: 20px;
 }
 
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    border-left: 5px solid yellow;
+    border-radius: 10px;
+    width: 80%;
+    height: 150px;
+    margin: 15px 0;
+    margin-left: 20px;
+    padding-left: 10px;
+
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #737373;
+    margin: 10px 0;
+
+}
+
+h4 {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.ann-trend {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.ann-card, .trend-card {
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.ann-text {
+    padding: 10px 15px;
+}
+.ann-text h6, 
+.trend-text h6 {
+    font-size: 13px;
+}
+
+.ann-text p,
+.trend-text p {
+    font-size: 11px;
+    color: #737373;
+ 
+}
+
+.divider {
+    border: 0.5px solid #737373;
+    width: 80%;
+    display: flex;
+    margin-left: 20px;
+}
+
+.trend-image-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 20px;
+    padding: 2px 10px;
+}
+
+/*
+.trend-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+*/
+.trend-text {
+    margin-left: 20px;
+}
 /*
 .top-nav {
     background-color: white;
