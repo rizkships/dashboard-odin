@@ -50,15 +50,28 @@ body {
 .list-items-bottom {
     margin-top: 50px;
 }
+img {
+    filter: brightness(0) invert(1);
+    
+    }
+
+
 .main {
     background-color: white;
     height: 100vh;
+
+    display: grid;
+    grid-template-rows: 1fr 3.5fr;
 }
 
-img {
-filter: brightness(0) invert(1);
-
+.header {
+    background-color: white;
 }
+
+.content {
+    background-color: #d4d4d4;
+}
+
 /*
 .top-nav {
     background-color: white;
@@ -144,3 +157,5 @@ img {
     justify-content: center;
     align-items: center;
 }
+
+*/
