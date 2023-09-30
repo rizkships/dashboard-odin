@@ -50,7 +50,8 @@ body {
 .list-items-bottom {
     margin-top: 50px;
 }
-img {
+
+.sidebar img {
     filter: brightness(0) invert(1);
     
     }
@@ -66,6 +67,32 @@ img {
 
 .header {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.form-input {
+    width: 500px;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: 1px solid #d4d4d4;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+
+.avatarNavbar {
+    margin: 0px 20px;
+}
+.welcome {
+
 }
 
 .content {
